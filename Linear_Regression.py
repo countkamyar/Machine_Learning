@@ -17,7 +17,7 @@ class Dataset:
 class LinearRegression:
     ys=np.ndarray(shape=(1,10),dtype=float)
     xs=np.ndarray(shape=(1,10),dtype=float)
-    
+    epochs=100
     def __init__(self,  t0,  t1,  alpha):
         self.t0=t0
         self.t1=t1
@@ -25,29 +25,29 @@ class LinearRegression:
         dataset = Dataset()
         self.xs=dataset.create_dataset_x()
         self.ys=dataset.create_dataset_y()
-        self.theta = np.array([[t1]])
+        
         
     def calculate(self,Theta,Xs):
-        th= Xs.dot(Theta)
-        temp=0
-        for i in range(0,10):
-            temp=th[i,0]+temp
-        print('temp is: ',temp)    
-        return temp
+      temp=0
+      for i in range(0,10):
+        temp=temp+(((Xs[0,i]*Theta)+self.t0)-self.ys[0,i])
+      print('temp value: ',temp)  
+      return temp
     
     def ignit(self):
-        h=float(self.calculate(Theta=self.theta,Xs=self.xs.transpose()))
+        cal=float(self.calculate(Theta=self.t1,Xs=self.xs))
         alp=float(self.alpha*(1/10))
         for i in range(0,10):
-            temp0=float(self.t0-(alp*(h-self.ys[0,i])))
-            temp1=float(self.t1-(alp*(h-self.ys[0,i])*self.xs[0,i]))
+            temp0=float(self.t0-(alp*(cal)))
+            temp1=float(self.t1-(alp*(cal)*self.xs[0,i]))
             self.t0=temp0
             self.t1=temp1
         print('theta values:')
         print('theta0: ',self.t0,'theta1: ',self.t1)  
-        if(self.t0==0 and self.t1==2):
+        if(self.epochs==0):
             pass
         else:
+            self.epochs-=1
             self.ignit()    
 
   
