@@ -8,7 +8,7 @@ class Dataset:
         return a
     @staticmethod
     def create_dataset_y():
-        b = np.array([[2.0,4.0,6.0,8.0,10.0,12.0,14.0,16.0,18.0,20.0]])
+        b = np.array([[1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0]])
         return b
 
 
