@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 class Dataset:
     @staticmethod
     def create_dataset_x():
-        a = np.array([[0.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0]])
+        a = np.array([[0.0,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]])
         return a
     @staticmethod
     def create_dataset_y():
-        b = np.array([[5.0,9.0,11.0,20.0,15.0,5.0,19.0,21.0,23.0,25.0]])
+        b = np.array([[0.0,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]])
         return b
 
 
@@ -48,7 +48,10 @@ class LinearRegression:
         print('theta values:')
         print('theta0: ',self.t0,'theta1: ',self.t1)  
         if(self.epochs==0):
-            plt.plot(self.t0_values,self.t1_values)
+            dataset_x=np.linspace(0.0,1.0,100)
+            dataset_y=np.linspace(0.5,2.5,100)
+            plt.scatter(self.t0_values,self.t1_values,s=5)
+            plt.plot(dataset_x,dataset_y,color='r')
             plt.show()
         else:
             self.t0_values.append(self.t0)
