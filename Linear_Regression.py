@@ -51,7 +51,6 @@ class LinearRegression:
             dataset_x=np.linspace(0.0,1.0,100)
             dataset_y=np.linspace(0.5,2.5,100)
             plt.scatter(self.t0_values,self.t1_values,s=5)
-            plt.plot(dataset_x,dataset_y,color='r')
             plt.show()
         else:
             self.t0_values.append(self.t0)
