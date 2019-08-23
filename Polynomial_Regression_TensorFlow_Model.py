@@ -39,8 +39,9 @@ with tf.compat.v1.Session() as sess:
             cost_f, feed_dict={X: xs, Y: ys})
         print(training_cost)
         
-        if np.abs(prev_training_cost - training_cost) < 0.000001:
-            #saving after training
-            saver.save(sess=sess, save_path='./polynomial_regression.ckpt')
+        if np.abs(prev_training_cost - training_cost) < 0.000001: 
             break
         prev_training_cost = training_cost
+                #saving after training        
+    saver.save(sess=sess, save_path='./polynomial_regression.ckpt')    
+       
