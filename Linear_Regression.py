@@ -9,7 +9,7 @@ class Dataset:
         return a
     @staticmethod
     def create_dataset_y():
-        b = np.array([[0.0,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0]])
+        b = np.array([[0.0,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0,1.1]])
         return b
 
 
@@ -18,7 +18,7 @@ class Dataset:
 class LinearRegression:
     ys=np.ndarray(shape=(1,10),dtype=float)
     xs=np.ndarray(shape=(1,10),dtype=float)
-    epochs=200
+    epochs=300
     t0_values=[]
     t1_values=[]
     def __init__(self,  t0,  t1,  alpha):
@@ -60,7 +60,7 @@ class LinearRegression:
         
   
 
-lr=LinearRegression(0,1,1)
+lr=LinearRegression(0,1,0.1)
 lr.ignit()
 
 
