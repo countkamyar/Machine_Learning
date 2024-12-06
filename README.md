@@ -1,16 +1,16 @@
 <p align="center"> 
-  <img src="images/machine_learning_logo.gif" alt="machine_learning_logo" width="80px" height="80px">
+  <img src="images/machine_learning_logo.gif" alt="machine_learning_logo" width="100%" >
 </p>
 <h1 align="center"> Machine Learning Repository </h1>
 <h3 align="center"> A collection of foundational machine learning models and implementations </h3>
 </br>
 
 <p align="center"> 
-  <img src="images/regression_example.gif" alt="regression_example_gif" width="40%" height="40%">
+  <img src="images/regression_example.gif" alt="regression_example_gif" width="100%" height="40%">
 </p>
 
 <!-- TABLE OF CONTENTS -->
-<h2 id="table-of-contents"> 📑 Table of Contents</h2>
+<h2 id="table-of-contents"> Table of Contents</h2>
 
 <nav>
   <ul>
