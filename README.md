@@ -10,30 +10,29 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-<h2 id="table-of-contents"> :book: Table of Contents</h2>
+<h2 id="table-of-contents"> 📑 Table of Contents</h2>
 
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project"> ➤ About The Project</a></li>
-    <li><a href="#algorithms-and-files"> ➤ Algorithms and Files</a></li>
-    <li><a href="#getting-started"> ➤ Getting Started</a></li>
-    <li><a href="#dependencies"> ➤ Dependencies</a></li>
-    <li><a href="#usage"> ➤ Usage</a></li>
-    <li><a href="#contributing"> ➤ Contributing</a></li>
-    <li><a href="#license"> ➤ License</a></li>
-  </ol>
-</details>
+<nav>
+  <ul>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#algorithms-and-files">Algorithms and Files</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#dependencies">Dependencies</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ul>
+</nav>
 
 <!-- ABOUT THE PROJECT -->
-<h2 id="about-the-project"> :pencil: About The Project</h2>
+<h2 id="about-the-project"> ✏️ About The Project</h2>
 
 <p align="justify"> 
   This repository contains implementations of foundational machine learning algorithms, such as linear regression and polynomial regression, using frameworks like Scikit-learn and TensorFlow. It is designed to help developers, students, and researchers understand and experiment with these core concepts.
 </p>
 
 <!-- ALGORITHMS AND FILES -->
-<h2 id="algorithms-and-files"> :file_folder: Algorithms and Files</h2>
+<h2 id="algorithms-and-files"> 📂 Algorithms and Files</h2>
 
 | File Name                                 | Description                                             |
 |------------------------------------------|---------------------------------------------------------|
@@ -43,7 +42,7 @@
 | `Polynomial_Regression_scikit-learn.py`  | Polynomial regression using Scikit-learn library.      |
 
 <!-- GETTING STARTED -->
-<h2 id="getting-started"> :rocket: Getting Started</h2>
+<h2 id="getting-started"> 🚀 Getting Started</h2>
 
 <p>
 To get started, follow these steps:
@@ -60,7 +59,7 @@ To get started, follow these steps:
 </ol>
 
 <!-- DEPENDENCIES -->
-<h2 id="dependencies"> :hammer_and_wrench: Dependencies</h2>
+<h2 id="dependencies"> 🛠️ Dependencies</h2>
 
 <p>
 Ensure you have the following Python libraries installed:
@@ -79,7 +78,7 @@ pip install numpy pandas scikit-learn matplotlib tensorflow
 </pre>
 
 <!-- USAGE -->
-<h2 id="usage"> :computer: Usage</h2>
+<h2 id="usage"> 💻 Usage</h2>
 
 <p>
 Run any of the scripts to explore the implementations:
@@ -98,7 +97,7 @@ Run any of the scripts to explore the implementations:
 </ul>
 
 <!-- CONTRIBUTING -->
-<h2 id="contributing"> :handshake: Contributing</h2>
+<h2 id="contributing"> 🤝 Contributing</h2>
 
 <p>
 Contributions are welcome! To contribute:
@@ -124,7 +123,7 @@ Contributions are welcome! To contribute:
 </ol>
 
 <!-- LICENSE -->
-<h2 id="license"> :scroll: License</h2>
+<h2 id="license"> 📜 License</h2>
 
 <p>
 This repository is licensed under the <a href="LICENSE">MIT License</a>. Feel free to use it for educational or commercial purposes while giving credit to the author.
