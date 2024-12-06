@@ -1,5 +1,5 @@
 <p align="center"> 
-  <img src="images/machine_learning_logo.png" alt="machine_learning_logo" width="80px" height="80px">
+  <img src="images/machine_learning_logo.gif" alt="machine_learning_logo" width="80px" height="80px">
 </p>
 <h1 align="center"> Machine Learning Repository </h1>
 <h3 align="center"> A collection of foundational machine learning models and implementations </h3>
